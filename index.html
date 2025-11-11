@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSS Position</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" class="logo" alt="CSS Logo">
+    <nav>
+      <ul class="hero">
+        <li>static</li>
+        <li>relative</li>
+        <li>absolute</li>
+        <li>fixed</li>
+        <li>sticky</li>
+        <li>z-index</li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="position-section">
+    <h1 class="title">Position</h1>
+    <div class="position-container">
+      <div class="box relative">
+        <div class="box absolute">absolute</div>
+        <p class="bot" >relative</p>
+      </div>
+      <div class="box relative">
+        <div class="box absolute center">absolute</div>
+        <p class="bot" >relative</p>
+      </div>
+      <div class="box relative">
+        <div class="box absolute">absolute</div>
+        <p class="bot" >relative</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="info-section">
+    <h1 class="title">Information</h1>
+    <div class="info-container">
+      <div class="card">
+        <h2>Static</h2>
+        <p>Position default holati static bu holda top, left, right, bottom, z-index ishlamaydi.</p>
+      </div>
+      <div class="card">
+        <h2>Relative</h2>
+        <img src="imges/image 3 (6).png" alt="Relative example">
+      </div>
+      <div class="card">
+        <h2>Absolute</h2>
+        <img src="imges/image 2 (5).png" alt="Absolute example">
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>CSS Position Example</p>
+  </footer>
+</body>
+</html>
